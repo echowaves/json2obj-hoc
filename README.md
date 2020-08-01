@@ -28,7 +28,7 @@ class Account {
 
 export default Json2ObjHOC(Account) // enhancing Account
 ```
-Wrapping ```Account``` with ```Json2ObjHOC``` adds 2 methods ```Account``` type.
+Wrapping ```Account``` with ```Json2ObjHOC``` adds 2 methods to ```Account``` type.
 
 ```stringify()``` which is self explanatory -- it returns JSON string representation of the object.
 
