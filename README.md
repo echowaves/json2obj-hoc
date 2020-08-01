@@ -40,7 +40,7 @@ Here are examples how to use the ```Account``` object:
 ```js
 import Account from './account'
 
-let account = new Account({ publicKey })
+let account = new Account({ publicKey: 'some public key' }) // constructor with required parameter
 const amount = 100
 account.addBalance({ amount })
 
