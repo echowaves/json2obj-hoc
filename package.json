@@ -1,9 +1,10 @@
 {
   "name": "json2obj-hoc",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Higher-Order Component that adds ability for object to be re-constructed from JSON string properly preserving given Class type",
-  "main": "src/json2obj-hoc.js",
+  "main": "lib/json2obj-hoc.js",
   "scripts": {
+    "prepublish": "babel src --out-dir lib",
     "test": "jest"
   },
   "repository": {
