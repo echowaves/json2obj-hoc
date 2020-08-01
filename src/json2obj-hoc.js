@@ -1,5 +1,5 @@
 const Json2ObjHOC = WrappedObject => class extends WrappedObject {
-  /* returns JSON String represenation of the object */
+  /* returns JSON String representation of the object */
   stringify() {
     return JSON.stringify(this)
   }
