@@ -29,8 +29,10 @@ export default Json2ObjHOC(Account)
 ```
 Wrapping ```Account``` with ```Json2ObjHOC``` adds 2 methods to every instance of the ```Account``` class.
 
-```stringify()``` which is self explanatory -- it returns JSON String representation of the object.
+```stringify()``` which is self explanatory -- it returns JSON string representation of the object.
+
 and
+
 ```static parse(jsonObj)``` which returns Object instance of a class you invoke it on.
 
 Here are examples how to use the ```Account``` object:
