@@ -53,3 +53,5 @@ const generatedAccount = Account.parse(jsonAccount)
 generatedAccount.addBalance({ amount })
 
 ```
+
+```js console.log(generatedAccount.balance)``` will output ```js 200```
