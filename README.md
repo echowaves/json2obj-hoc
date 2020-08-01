@@ -7,7 +7,7 @@ In the class that you want to enhance with this HOC
 ```js
 import Json2ObjHOC from 'json2obj-hoc'
 
-```
+```js
 Then declare your class and at the end ```export``` as Higher-Order Component
 ```
 class Account {
@@ -30,7 +30,7 @@ export default Json2ObjHOC(Account)
 
 Here are examples how to use the ```Account``` object:
 
-```
+```js
 import Account from './account'
 
 let account = new Account({ publicKey })
