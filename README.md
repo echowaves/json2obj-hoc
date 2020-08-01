@@ -7,9 +7,9 @@ In the class that you want to enhance with this HOC
 ```js
 import Json2ObjHOC from 'json2obj-hoc'
 
-```js
-Then declare your class and at the end ```export``` as Higher-Order Component
 ```
+Then declare your class and at the end ```export``` as Higher-Order Component
+```js
 class Account {
   // have to make publicKey optional for json2Obj HOC to work
   constructor({ publicKey } = { publicKey: '' }) {
