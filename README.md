@@ -19,7 +19,7 @@ class Account {
     this.stakeTimestamp = moment.utc().valueOf()
   }
 
-	// this method will be preserved after you deserialize the object
+  // this method will be preserved after you deserialize the object
   addBalance({ amount }) {
 		this.balance += amount
 	}
