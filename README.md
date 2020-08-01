@@ -4,7 +4,7 @@ Higher-Order Component that adds ability for object to be re-constructed from JS
 ## Usage
 
 In the class that you want to enhance with this HOC
-```
+```js
 import Json2ObjHOC from 'json2obj-hoc'
 
 ```
