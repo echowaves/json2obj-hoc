@@ -1,0 +1,33 @@
+{
+  "name": "json2obj-hoc",
+  "version": "1.0.0",
+  "description": "Higher-Order Component that adds ability for object to be re-constructed from JSON string properly preserving given Class type",
+  "main": "src/json2obj-hoc.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/echowaves/json2obj-hoc.git"
+  },
+  "keywords": [
+    "serializable",
+    "Json2Object",
+    "HOC",
+    "stringify",
+    "parse"
+  ],
+  "author": "Dmitry Amelchenko <dmitry@echowaves.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/echowaves/json2obj-hoc/issues"
+  },
+  "homepage": "https://github.com/echowaves/json2obj-hoc#readme",
+  "devDependencies": {
+    "@babel/cli": "7.10.5",
+    "@babel/core": "7.10.5",
+    "@babel/plugin-proposal-class-properties": "7.10.4",
+    "@babel/preset-env": "7.10.4",
+    "jest": "26.1.0"
+  }
+}
