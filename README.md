@@ -34,7 +34,7 @@ Wrapping ```Account``` with ```Json2ObjHOC``` adds 2 methods to ```Account``` ty
 
 and
 
-```static parse(jsonObj)``` which returns Object instance of a class you invoke it on.
+```static parse(jsonObj)``` which returns object instance of correct type.
 
 Here are examples how to use the ```Account``` object:
 
