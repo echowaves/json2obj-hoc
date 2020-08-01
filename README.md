@@ -19,7 +19,8 @@ class Account {
     this.stake = 0
   }
 
-  // this method defines behavior of Account data type, will be preserved after you deserialize the object
+  // this method defines behavior of Account data type,
+  // which will be preserved after you deserialize the object from JSON
   addBalance({ amount }) {
     this.balance += amount
   }
