@@ -54,4 +54,4 @@ generatedAccount.addBalance({ amount })
 
 ```
 
-```js console.log(generatedAccount.balance)``` will output ```js 200```
+```console.log(generatedAccount.balance)``` will output ```200```
