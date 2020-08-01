@@ -55,3 +55,6 @@ generatedAccount.addBalance({ amount })
 
 console.log(generatedAccount.balance) // ----> 200
 ```
+
+## Future
+Currently only synch version is supported. There are plans to include asynch methods at some point.
