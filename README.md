@@ -52,6 +52,5 @@ const generatedAccount = Account.parse(jsonAccount)
 // can still call the addBalance method, because the object is of the right type
 generatedAccount.addBalance({ amount })
 
+console.log(generatedAccount.balance) // ----> 200
 ```
-
-```console.log(generatedAccount.balance)``` will output ```200```
