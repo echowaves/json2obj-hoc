@@ -21,8 +21,8 @@ class Account {
 
   // this method will be preserved after you deserialize the object
   addBalance({ amount }) {
-		this.balance += amount
-	}
+    this.balance += amount
+  }
 }
 
 export default Json2ObjHOC(Account)
