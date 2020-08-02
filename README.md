@@ -34,7 +34,7 @@ Wrapping ```Account``` with ```Json2ObjHOC``` adds 2 methods to ```Account``` ty
 
 and
 
-```static parse(json)``` which returns object instance of correct type.
+```parse(json)``` which returns object instance of correct type.
 
 Here are examples how to use the ```Account``` object:
 
@@ -49,7 +49,7 @@ const jsonAccount = account.stringify()
 // jsonAccount will have the right amount
 
 // now let's re-created another instance of the Account object from JSON string
-const generatedAccount = Account.parse(jsonAccount)
+const generatedAccount = new Account().parse(jsonAccount)
 // can still call the addBalance method, because the object is of the right type
 generatedAccount.addBalance({ amount })
 
