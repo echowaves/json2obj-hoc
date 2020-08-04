@@ -31,3 +31,4 @@ describe('Json2ObjHOC', () => {
     })
   })
 })
+

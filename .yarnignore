@@ -1,3 +1,5 @@
 .babelrc
 lib/*test.js
 src/
+.eslintrc
+.eslintignore
