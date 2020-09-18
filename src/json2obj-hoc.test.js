@@ -18,7 +18,7 @@ describe('Json2ObjHOC', () => {
   describe('ObjectInTest.parse()', () => {
     it('should generate an `ObjectInTest` instance from JSON', () => {
       const jsonObjectInTest = objectInTest.stringify()
-      const generatedObjectInTest = ObjectInTest.parse(jsonObjectInTest)
+      const generatedObjectInTest = new ObjectInTest().parse(jsonObjectInTest)
       expect(generatedObjectInTest).toMatchObject(objectInTest)
       // check if the loaded object responds to methods calls after re-construction from JSON
       generatedObjectInTest.incProp2()
@@ -26,7 +26,7 @@ describe('Json2ObjHOC', () => {
     })
     it('should fail to generate an `ObjectInTest` object from wrong JSON', () => {
       expect(() => {
-        ObjectInTest.parse('{ some: json }')
+        new ObjectInTest().parse('{ some: json }')
       }).toThrowError('Unexpected token s in JSON at position 2')
     })
   })

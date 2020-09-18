@@ -5,9 +5,9 @@ const Json2ObjHOC = WrappedObject => class extends WrappedObject {
   }
 
   /* returns Object instance of a current class */
-  static parse(json) {
+  parse(json) {
     const obj = JSON.parse(json)
-    return Object.assign(new WrappedObject(), obj)
+    return Object.assign(this, obj)
   }
 }
 export default Json2ObjHOC
